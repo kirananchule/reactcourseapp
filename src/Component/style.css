@@ -1,0 +1,88 @@
+.main{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: none;
+    height: 30px;
+    border-radius: 3px;
+    background-color:lightgreen;
+    
+}
+.btn{
+    display: none;
+}
+
+.main-course-list:hover .btn {
+    display: block;   
+}
+
+
+li{
+    margin-bottom: 20px;
+}
+
+
+.course-list{
+   height: auto;
+   width: auto;
+   color: rgb(127, 114, 241);
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+   
+
+  
+}
+.super-list{
+    display: flex;
+    margin-top: 10px;
+}
+.main-course-list{
+    margin-right: 15px;
+}
+
+.add {
+    border-style: none;
+    height: 30px;
+    border-radius: 3px;
+    background-color:lightgreen;
+    margin-right: 3px;
+ 
+}
+.discard{
+    border-style: none;
+    height: 30px;
+    border-radius: 3px;
+    background-color:lightsalmon;
+}
+h2{
+    color: olive;
+}
+p1{
+    color:lightcoral;
+    font-size: 25px;
+}
+
+span{
+    color: red;
+    margin-bottom: 10px;
+    
+}
+
+.row{
+    width: 400px;
+    height: 400px;
+}
+.list{
+    color: black;
+}
+.sorting{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.listing{
+    margin-top: 10px;
+}
