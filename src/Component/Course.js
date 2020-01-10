@@ -102,8 +102,9 @@ class Course extends Component {
             if (items.id === course.id) {
               items.count += 1;
               productAlreadyInCart = true;
-              document.getElementsByName("remove-from-cart").style.display = "block";
-              document.getElementsByName("add-to-cart").style.display = "none";
+              
+              // document.getElementsByName("remove-from-cart").style.display = "block";
+              // document.getElementsByName("add-to-cart").style.display = "none";
             }
 
           });
