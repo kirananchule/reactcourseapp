@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './style.css'
 
 class Searchcourse extends React.Component {
 
@@ -14,7 +14,7 @@ class Searchcourse extends React.Component {
     render() {
         return(
              <div>
-             <input type="text" ref="searchRef" onChange={this.changeHandler}></input><p1>serach-courses</p1>
+             <input type="text" ref="searchRef" onChange={this.changeHandler} ></input>  <p1>serach courses</p1>
             </div>
         )
     }
