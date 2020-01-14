@@ -14,11 +14,16 @@ button{
 .btn{
     display: none;
 }
-
-.main-course-list:hover .btn {
-    display: block;   
+/* .remove-from-cart{
+    display: none;
 }
 
+.main-course-list:hover .add-to-cart {
+    display: block;   
+} */
+.main-course-list:hover .btn{
+    display: block;
+}
 
 li{
     margin-bottom: 20px;
